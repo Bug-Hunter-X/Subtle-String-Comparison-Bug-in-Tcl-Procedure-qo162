@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in a Tcl procedure that arises from implicit string comparison. The `badproc` procedure intends to compare two values for equality, but it fails when the inputs are strings that could be interpreted as numbers. The solution shows how to explicitly convert inputs to numbers before comparison to fix the issue.
